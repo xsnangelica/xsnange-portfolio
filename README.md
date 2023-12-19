@@ -27,5 +27,5 @@
         </li>
         </ul>
 
-<h2> Connect with Me </h2>
+<h2> Connect with Me on LinkedIn </h2>
     <href >

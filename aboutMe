@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    
+    <script src="scriptfile.js">
+        alert("Hello World!");
+    </script>    
     <title>About Me</title>
 
 </head>
@@ -27,7 +29,7 @@
 <div>
     <!-- Include interests, and things you are good at, and in general you should pull back enough of the curtain to interest a potential employer-->
 <h2>ABOUT ME</h2>
-    <p>Raised in a small town outside of Napa, California. Attended a community college before 
+    <p>Raised in a small town outside of Napa, California and San Diego, California. Attended a community college before 
         enlisting into the United States Army as a Communications Network Operator. After leaving the service, returned back to school
         for cybersecurity training, that lead into a career as a Military Education Program Manager, assisting veterans and transitioning service members begin their journey into
         cybersecurity, data, and cloud engineering.</p>
@@ -38,6 +40,15 @@
 
 
 </div>
+
+<section>
+    <center><img src="images/beach.jpg" alt="Photo of sunrise at the beach" height="250" width="325" />
+    <br />
+    <img src="images/midwayview.jpg" alt="View from Midway Battleship" height="300" width="325" />
+    <img src="images/sdsushi.jpg" alt="Family lunch eating sushi" height="300" width="325" />
+    </center>
+
+</section>
     
 </body>
 </html>

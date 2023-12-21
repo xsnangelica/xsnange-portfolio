@@ -2,6 +2,11 @@ body {
     background-color: #dbd8b3;
 }
 
+@media screen and (max-width: 625px)
+    .project-design {
+        display: flex;
+        flex-direction: column;
+    }
 
 h1 {
     border-style: groove;

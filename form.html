@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            background-color: #4B05AD;
+            font-family: verdana;
+            font-size: 20px;
+            font-color: #2C0076
+            }
+        h1 {color: white; }
+        p {color: #2C0076; }
+
+        @media screen and (max-width: 625px)
+    .project-design {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    </style>
+    <title>Contact Me</title>
+
+</head>
+
+<!-- To Do
+    Margin on top and bottom of page
+    use flex / grid 
+    Margins
+    logo / photo
+-->
+
+<body>
+    <center> Contact Information </center>
+
+    <div class="grid1">
+    <form id="contactForm" action="/action_page.html">
+        <p>
+        <label for="firstname">First Name:</label>
+        <input type="text" id="firstname" />
+        <label for="lastname"> Last Name:</label>
+        <input type="text" id="lastname" />
+        <p>
+        <label for="phonenumber">Phone Number: </label>
+        <input type="tel" id="phonenumber" />
+        <input type="radio" id="cell" name="cell" value="cell">
+        <label for="cell">Cell</label>
+        <input type="radio" id="home" name="home" value="home">
+        <label for="home">Home</label>
+        <input type="radio" id="work" name="work" value="work">
+        <label for="work">Work</label>
+        </p>
+        <p>
+        <input type="submit" value="Submit">
+
+    </form>
+    <script>
+function myFunction() {
+  document.getElementById("myForm").submit();
+}
+</script>
+-->
+</div>
+
+    
+</body>
+</html>

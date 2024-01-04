@@ -1,5 +1,6 @@
 body {
-    background-color: #dbd8b3;
+    background-color: #e4e2dd;
+    font: 'heveltica' ;
 }
 
 @media screen and (max-width: 625px)
@@ -8,19 +9,116 @@ body {
         flex-direction: column;
     }
 
+    .margins {
+        margin-top: 50px;
+        margin-right: 75px;
+        margin-left: 75px;
+        margin-bottom: 50;
+    }
+
+
 h1 {
-    border-style: groove;
-    border-color: #EFA48B; 
-    padding: 35px;
-    margin: 1%;
+
     color: #685369 ;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Quicksand', Cochin, Georgia, Times, Times New Roman, serif;
     font-size: xx-large;
+    background-color: black;
+    text-align: center;
+    padding: 70px;
 }
 
 h2 {
-    margin: 1%;
+    margin: 3% ;
     color: #685369 ;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Quicksand', Cochin, Georgia,5Times, 'Times New Roman', serif;
     font-size: medium;
 }
+
+/*---- Margins ----*/
+.indexpage {
+    margin-top: 80px;
+    margin-left: 50px;
+    margin-bottom:80px;
+    margin-right: 80px;
+}
+
+.aboutme {
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+
+/* This section to be used for FORM PAGE */
+.form1 {
+    background-color: #6B04FD;
+}
+
+/* ----- GRIDS ------ */
+
+.grid1 {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap + safe;
+    
+}
+
+.grid3x3 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+    gap: 10px;
+    background-color:transparent;
+    padding: 10px;
+
+}
+
+.grid-item {
+    background-color: transparent;
+    color:rgb(99, 68, 119);
+    border: 1px;
+    padding: 20px;
+    font-size: 16px;
+    text-align: center;
+}
+
+
+    /* About Me - Grid Style(s) */
+    .grid2 {
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+
+
+/* ---------------- LOGO 
+
+.logo {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    z-index: 1
+}
+
+---------------- */
+
+    /* Style for INDEX.HTML */
+    .logo2 {
+        position: absolute;
+        bottom: 30px;
+        left: 30px;
+        z-index: -1
+    }
+
+
+
+
+    /* Border properties:
+        border-style: groove;
+    border-color: #EFA48B; 
+    padding: 35px;
+    margin: 5%;
+    */
+    
+
+
